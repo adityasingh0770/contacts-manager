@@ -1,5 +1,5 @@
 # Contact List App (Create React App style)
-
+It is deployed on vercel https://contacts-manager-khaki.vercel.app/
 ## How to run
 
 1. npm install
