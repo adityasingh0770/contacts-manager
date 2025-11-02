@@ -1,0 +1,133 @@
+/* 🌐 Navbar Styles */
+
+.header-nav {
+  background-color: #1d4ed8;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-nav nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.header-nav a:hover {
+  color: #93c5fd;
+}
+
+main.container {
+  margin-top: 2rem;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .header-nav nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+/* Centered page content layout */
+.container {
+  max-width: 700px;
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+/* === Search Page === */
+.search-page {
+  text-align: center;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+/* Search bar container */
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: #f3f4f6;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  margin: 1rem auto 2rem;
+  max-width: 450px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.search-icon {
+  color: #6b7280;
+  font-size: 1.2rem;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  color: #111827;
+}
+
+/* Contact card styling (reuse global style if already added) */
+.contact-card {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 1.3rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  max-width: 320px;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Layout for contact results */
+.contacts-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.inline-icon {
+  margin-right: 6px;
+  color: #2563eb;
+}
+
+.empty-message {
+  color: #6b7280;
+  margin-top: 1rem;
+}
+
+/* Animation */
+.animated-card {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

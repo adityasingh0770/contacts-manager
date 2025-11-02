@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Aditya Singh",
+    "email": "aditya@example.com",
+    "phone": "+91-9000000001"
+  },
+  {
+    "id": 2,
+    "name": "Nitesh Kumar",
+    "email": "nitesh@example.com",
+    "phone": "+91-9000000002"
+  },
+  {
+    "id": 3,
+    "name": "Jatin Meena",
+    "email": "jatin@example.com",
+    "phone": "+91-9000000003"
+  }
+]
