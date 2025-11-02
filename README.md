@@ -19,7 +19,7 @@ A modern and responsive **React Contact Manager** app that allows users to **add
 - 🗑️ **Restore Deleted Contacts**
 - 💾 **LocalStorage Persistence** (contacts stay saved even after reload)
 - 💅 **Beautiful UI** with hover effects and responsive layout
-- ⚡ Built with **React + Context API**
+- ⚡ Built with **React**
 
 ---
 
